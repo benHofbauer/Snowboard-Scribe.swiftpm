@@ -70,7 +70,7 @@ struct DoubleDiamond: Shape {
 
 @available(iOS 17, *)
 struct RatingView: View {
-    @Binding var trail: Trail
+    @Bindable var trail: Trail
     var dimension: CGFloat = 20
     var paddingDimension: CGFloat = 10
     
@@ -176,7 +176,7 @@ struct RatingView: View {
 
 #Preview {
     if #available(iOS 17, *) {
-        RatingView(trail: .constant(Trail(date: Date.now, rating: Rating.green, enjoyment: 0.0, name: "")))
+        RatingView(trail: Trail(date: Date.now, rating: Rating.green, enjoyment: 0.0, name: ""))
     } else {
         // Fallback on earlier versions
     }
