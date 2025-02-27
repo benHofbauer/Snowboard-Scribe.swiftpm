@@ -1,0 +1,2 @@
+# Snowboard Scribe
+Snowboard Scribe is an iOS app for logging and reviewing past snowboard/ski rides. The app is designed so that users can easily record their rides while waiting in line for the chairlift. In the data tab, users can search through logged rides based on their names, dates, and how much they enjoyed them. In the main tab users can see a graphical breakdown of their rides over a set period of time (last month, last year, etc.).
